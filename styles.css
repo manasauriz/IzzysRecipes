@@ -1,0 +1,48 @@
+body {background-color: #f2f0ef;}
+
+a {text-decoration: none;}
+
+#recipe-title
+{
+    opacity: 0.50;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+    height: 200px;
+    font-size: 25px;
+    font-family: "Georgia", Georgia, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub_sections
+{
+    background-color: white;
+    border-left: 5px solid #A9A9A9;
+    border-right: 5px solid #A9A9A9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+#i_table
+{
+    border: 5px ridge #A9A9A9;
+    text-align: left;
+    padding: 10px;
+    border-spacing: 5px;
+    background-color: #f2f0ef;
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+}
+
+#i_steps
+{
+    font-size: 18px;
+    font-family: "Georgia", Georgia, serif;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
