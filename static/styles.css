@@ -1,6 +1,12 @@
-body {background-color: #f2f0ef;}
+body
+{
+    background-color: #e2d8d3;
+}
 
-a {text-decoration: none;}
+a
+{
+    text-decoration: none;
+}
 
 #recipe-title
 {
@@ -28,7 +34,7 @@ a {text-decoration: none;}
     padding: 25px;
 }
 
-#i_table
+#ingredients_table
 {
     border: 5px ridge #A9A9A9;
     text-align: left;
@@ -39,7 +45,7 @@ a {text-decoration: none;}
     font-family: Helvetica, sans-serif;
 }
 
-#i_steps
+#instructions_list
 {
     font-size: 18px;
     font-family: "Georgia", Georgia, serif;

@@ -1,6 +1,7 @@
 {
     "noodles": {
         "name": "Hakka Noodles",
+        "description": "Indo-chinese veggie hakka noodles with boiled eggs (optional)",
         "ingredients": [
             {"name": "Noodles", "quantity": "250 gms"},
             {"name": "Carrot", "quantity": "1 medium"},
@@ -27,6 +28,7 @@
     },
     "pizza": {
         "name": "Chicken Pan Pizza",
+        "description": "Pan-made Pizza topped with marinara sauce, chicken, veggies and cheese!",
         "ingredients": [
             {"name": "Precooked Pizza Crust", "quantity": "2 nos"},
             {"name": "Tomato", "quantity": "3 medium"},
@@ -56,6 +58,7 @@
     },
     "pasta": {
         "name": "Penne Arrabbiata",
+        "description": "Penne pasta with arrabbiata sauce served with stir-fried veggies (optional)",
         "ingredients": [
             {"name": "Penne Pasta", "quantity": "250 gms"},
             {"name": "Tomato", "quantity": "4 medium"},
@@ -77,6 +80,7 @@
     },
     "soup": {
         "name": "Chicken Noodle Soup",
+        "description": "Homely chicken noodle soup with lots of veggies and flavor!",
         "ingredients": [
             {"name": "Chicken Breast", "quantity": "1 nos"},
             {"name": "Noodles", "quantity": "250 gms"},
