@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="static/styles.css" rel="stylesheet">
+        <title>{{data["name"]}}</title>
+    </head>
+    <body>
+        <div id="recipe-title" style="background-image: url('static/{{name}}.jpg');">
+            <h1>{{data["name"]}}</h1>
+        </div>
+        <div id="recipe-body">
+            <div class="sub_sections">
+                <table id="i_table">
+                    <tr><th style="border-bottom: 1px solid #A9A9A9;">Item</th><th style="border-bottom: 1px solid #A9A9A9;">Quantity</th></tr>
+                    {% for item in data["ingredients"] %}
+                        <tr><td>{{item["name"]}}</td><td>{{item["quantity"]}}</td></tr>
+                    {% endfor %}
+                </table>
+            </div>
+            <div class="sub_sections">
+                <ol id="i_steps">
+                    {% for item in data["instructions"] %}
+                        <li>{{item}}</li>
+                    {% endfor %}
+                </ol>
+            </div>
+        </div>
+        <script src="static/load_logo.js"></script>
+    </body>
+</html>

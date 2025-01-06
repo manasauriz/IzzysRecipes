@@ -2,10 +2,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const container = document.createElement('div');
 
     const link = document.createElement('a');
-    link.href = 'index.html';
+    link.href = '/';
 
     const logo = document.createElement('img');
-    logo.src = "https://i.ibb.co/QrvtqJz/izzy-recipe-removebg.png";
+    logo.src = "static/logo.png";
     logo.alt = "Home";
     logo.width = 100;
     logo.height = 75;

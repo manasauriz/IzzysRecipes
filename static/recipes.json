@@ -1,0 +1,101 @@
+{
+    "noodles": {
+        "name": "Hakka Noodles",
+        "ingredients": [
+            {"name": "Noodles", "quantity": "250 gms"},
+            {"name": "Carrot", "quantity": "1 medium"},
+            {"name": "Capsicum", "quantity": "1 medium"},
+            {"name": "Onion", "quantity": "1 medium"},
+            {"name": "Garlic", "quantity": "3 cloves"},
+            {"name": "Ginger", "quantity": "1 inch"},
+            {"name": "Green Chillies", "quantity": "1 nos"},
+            {"name": "Scallions", "quantity": "1 cup"},
+            {"name": "Oil", "quantity": "2 tbsp"},
+            {"name": "Soy Sauce", "quantity": "1 tsp"},
+            {"name": "White Vinegar", "quantity": "1 tsp"},
+            {"name": "Toasted Sesame Oil", "quantity": "1 tsp"}
+        ],
+        "instructions": [
+            "Julienne carrot, capsicum and onion and finely chop scallions, ginger, garlic and green chillies.",
+            "Heat oil in a wok/ pan and sauté ginger, garlic and green chillies for a minute.",
+            "Add in the sliced veggies and cook them on high heat for 5 minutes, tossing regularly.",
+            "Boil 4 cups of water and salt in a pot and cook the noodles for 8-10 minutes.",
+            "Drain the noodles and add them with the vegetables.",
+            "Add in soy sauce, vinegar and sesame oil to the noodles and season it with salt and pepper.",
+            "Garnish with scallions and optionally serve it with boiled/fried eggs"
+        ]
+    },
+    "pizza": {
+        "name": "Chicken Pan Pizza",
+        "ingredients": [
+            {"name": "Precooked Pizza Crust", "quantity": "2 nos"},
+            {"name": "Tomato", "quantity": "3 medium"},
+            {"name": "Tomato Paste", "quantity": "2 tbsp"},
+            {"name": "Onion", "quantity": "3 medium"},
+            {"name": "Garlic", "quantity": "5 cloves"},
+            {"name": "Chicken Breast", "quantity": "1 nos"},
+            {"name": "Oil", "quantity": "2 tbsp"},
+            {"name": "Shredded Mozzarella Cheese", "quantity": "1 cup"},
+            {"name": "Butter", "quantity": "1 tbsp"},
+            {"name": "Red Pepper Flakes", "quantity": "1/2 tsp"},
+            {"name": "Dried Oregano", "quantity": "1/2 tsp"}
+        ],
+        "instructions": [
+            "To prepare the marinara sauce, first blanch the tomatoes, remove their peels and blend them to a paste.",
+            "Heat oil in a pan, add in 2 finely chopped onions and cook them on medium heat till it sweats.",
+            "Add in diced garlic, red pepper flakes and sauté for a couple of minutes.",
+            "Add in blended tomatoes and the tomato paste and cook on low heat till it thickens.",
+            "Season it with salt, pepper and dried oregano as per taste. The sauce for pizza is ready.",
+            "Heat some oil in a pan and add diced chicken and cook on medium heat.",
+            "When it is almost done, add in a diced onion and any vegetable topping of your choice.",
+            "Cook them on the highest setting so they develop a char. Season with salt and pepper.",
+            "In a thick pan, add some butter and place the pizza crust on it.",
+            "Spread our prepared sauce and add in the toppings and cheese.",
+            "Close the lid and let it bake for 5-10 minutes till the cheese melts."
+        ]
+    },
+    "pasta": {
+        "name": "Penne Arrabbiata",
+        "ingredients": [
+            {"name": "Penne Pasta", "quantity": "250 gms"},
+            {"name": "Tomato", "quantity": "4 medium"},
+            {"name": "Tomato Paste", "quantity": "2 tbsp"},
+            {"name": "Garlic", "quantity": "5 cloves"},
+            {"name": "Olive Oil", "quantity": "2 tbsp"},
+            {"name": "Grated Parmesan Cheese", "quantity": "1/4 cup"},
+            {"name": "Basil Leaves", "quantity": "5 nos"},
+            {"name": "Red Pepper Flakes", "quantity": "1/2 tsp"}
+        ],
+        "instructions": [
+            "In a pot of heavily salted boiling water, cook the pasta till al dente.",
+            "Drain the pasta and cool it with running water.",
+            "Blanch the tomatoes, remove their peels and blend them.",
+            "Heat oil in pan, add in chopped garlic, blended tomatoes, the tomato paste and cook them on low for 30 minutes.",
+            "Add in the cooked pasta and some pasta water and season with salt and pepper.",
+            "Garnish it with cheese and basil and optionally serve with your choice of grilled veggies."
+        ]
+    },
+    "soup": {
+        "name": "Chicken Noodle Soup",
+        "ingredients": [
+            {"name": "Chicken Breast", "quantity": "1 nos"},
+            {"name": "Noodles", "quantity": "250 gms"},
+            {"name": "Carrot", "quantity": "2 medium"},
+            {"name": "Celery", "quantity": "1 medium"},
+            {"name": "Onion", "quantity": "1 medium"},
+            {"name": "Garlic", "quantity": "3 cloves"},
+            {"name": "Chicken Stock", "quantity": "2 cups"},
+            {"name": "Oil", "quantity": "3 tbsp"},
+            {"name": "Cilantro", "quantity": "1 cup"},
+            {"name": "Lemon Juice", "quantity": "1 tsp"}
+        ],
+        "instructions": [
+            "In a thick-bottomed pan, heat some oil and sauté chopped garlic for a minute or two.",
+            "Dice the chicken into cubes and add it to a pan and cook on medium heat for 5 minutes.",
+            "Add in roughly chopped carrots, celery and onion to the chicken and sauté them for a couple of minutes.",
+            "Add in the stock, water as required and add in uncooked noodles.",
+            "Simmer the soup till the noodles and chicken are cooked properly.",
+            "Garnish it with chopped cilantro, lemon juice and season it with salt and pepper."
+        ]
+    }
+}
