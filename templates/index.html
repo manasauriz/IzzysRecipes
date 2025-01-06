@@ -4,16 +4,17 @@
 
 {% block body %}
 {{ super() }}
-<div class="container">
-    {% for item in data %}
-        <a href="{{item['name']}}">
-            <img src="static/{{item['name']}}.jpg" alt="Recipe for {{item['full_name']}}" style="opacity: 0.75;">
-        </a>
-        <div>
-            <h5>{{item["full_name"]}}</h5>
-            <p>{{item["description"]}}</p>
-        </div>
-        </div>
-    {% endfor %}
-</div>
+
+{% for item in data %}
+<a href="{{item['name']}}">
+    <div class="recipe-card" style="background-image: url('static/{{item["name"]}}.jpg');">
+        <h1>{{item["full_name"]}}</h1>
+    </div>
+    <div class="sub_sections">
+        <h3>{{item["description"]}}</h3>
+    </div>
+</a>
+<hr>
+{% endfor %}
+
 {% endblock %}
